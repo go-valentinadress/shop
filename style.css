@@ -1,0 +1,90 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-image: url(http://valentinadress.com.br/wp-content/uploads/2023/02/background-black.png);
+    color: white; /* Muda a cor do texto */
+    font-family: 'Cinzel', 'Jost', 'Open Sans'; 
+    font-size: 1.2rem;
+}
+
+h1,h2,h3 {
+    color: white; /* Muda a cor dos títulos */
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+p {
+    font-weight: 400;   
+}
+
+img {
+    max-width: 240px;
+    border-radius: 100%;
+}
+
+div {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+a {
+    color: white; /* Muda a cor do texto do link */
+    text-decoration: none;
+    font-family: 'Jost';
+    font-weight: 800; 
+}
+
+a:hover {
+    color: #DAA520; /* Muda a cor do texto do link quando passamos o mouse por cima */
+}
+
+ul>li {
+    list-style: none;
+    padding: 8px;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color:white; /* Muda a cor botão */
+    border-style: none;
+}
+
+.btn-primary:hover {
+    background-color: #DAA520; /* Muda a cor botão quando passamos o mouse por cima */
+    border-style: none;
+}
+
+.btn-primary>a {
+    color: #000000; /* Muda a cor do texto dentro do botão */
+}
+
+.btn-primary>a:hover {
+    color: white; /* Muda a cor do texto dentro do botão quando passamos o mouse por cima */
+}
+
+.footer {
+    width: 100%;
+    font-size: 1.0rem;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    }
+
+.footer>a {
+    text-decoration: none;
+}
