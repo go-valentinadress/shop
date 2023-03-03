@@ -57,9 +57,9 @@ a:hover {
 }
 
 ul>li {
-    list-style: none;
-    padding: 8px;
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 .btn-primary {
